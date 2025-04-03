@@ -2,7 +2,7 @@ package patternproblems;
 
 public class RightAngledTriangle {
     public static void main(String[] args) {
-        char symbol = '*';
+        char symbol = 'J';
         int h = 5;
         rightTriangle(symbol,h);
     }
