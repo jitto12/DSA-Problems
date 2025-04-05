@@ -6,9 +6,9 @@ public class NumberRightTriangle {
         rightAlignedNumberTriangle(height);
     }
 
-    private static void rightAlignedNumberTriangle(int height) {
-        for (int i = 1; i <= height; i++) {
-            for (int j = i; j <= height-1; j++) {
+    private static void rightAlignedNumberTriangle(int h) {
+        for (int i = 1; i <= h; i++) {
+            for (int j = i; j <= h-1; j++) {
                 System.out.print("  ");
             }
             for (int k = 1; k <= i; k++) {
