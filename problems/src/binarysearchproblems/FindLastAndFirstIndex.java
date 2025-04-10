@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class FindLastAndFirstIndex {
     public static void main(String[] args) {
-        int[] nums = {1,2,2,2,3,4,5,6,7};
-        int target = 2;
+        int[] nums = {5,8,8,8,10};
+        int target = 8;
         FindLastAndFirstIndex findStartAndLastIndex = new FindLastAndFirstIndex();
         int [] result = findStartAndLastIndex.searchRange(nums,target);
         System.out.println(Arrays.toString(result));
