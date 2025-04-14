@@ -1,0 +1,13 @@
+BASIC ARRAY OPERATION
+---------------------
+1 traversal
+2 Insertion
+  -Insert at front
+  -Insert at end
+  -Insert at specific Location
+3 Delete
+  -Delete at Front
+  -Delete at Last
+  -Delete at Specific location
+4 Searching
+5 Update

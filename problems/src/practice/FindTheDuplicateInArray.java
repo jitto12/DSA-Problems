@@ -8,11 +8,11 @@ public class FindTheDuplicateInArray {
         System.out.println(findDuplicate(array));
     }
 
-    public static int findDuplicate(int [] nums){
+    public static int findDuplicate(int[] nums) {
         Arrays.sort(nums);
-        int low =0;
+        int low = 0;
         for (int high = 1; high < nums.length; high++) {
-            if (nums[low] == nums[high]){
+            if (nums[low] == nums[high]) {
                 return nums[low];
             }
             low++;
