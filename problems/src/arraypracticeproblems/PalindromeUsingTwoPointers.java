@@ -1,4 +1,4 @@
-package practice;
+package arraypracticeproblems;
 
 public class PalindromeUsingTwoPointers {
     public static void main(String[] args) {
