@@ -4,10 +4,8 @@ import java.util.Arrays;
 
 public class MoveZerosToEnd {
     public static void main(String[] args) {
-        int[] array = {2,3,4,5,0,6,7,8,9};
+        int[] array = {0,1,0,3,12};
         zerosToEnd(array);
-        zerosToFront(array);
-        evenToFront(array);
     }
 
     public static void zerosToEnd(int[] array){
