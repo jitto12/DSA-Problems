@@ -2,7 +2,7 @@ package patternproblems;
 
 public class ProgramPattern {
     public static void main(String[] args) {
-        String word = "JITTO";
+        String word = "PROG";
         int middle = word.length()/2;
         StringBuilder res = new StringBuilder();
         for (int i = middle; i < word.length(); i++) {
